@@ -1,0 +1,59 @@
+깃허브  : https://chaejuwon.github.io/pf_hongo/index.html
+닷홈     :http://juwon1.dothome.co.kr/hongo/index.html
+
+body {color:#232323; background:#fff}
+
+header
+max width: 1810
+margin : 0 35px
+
+header1 
+
+width : 33.333%
+height : 37px
+icon font-size : 13px padding : 0 5px
+가운데 font-size:11px
+오른쪽 폰트사이즈 : 11px 구분바 - width:1px; height:10px;
+padding:15px;
+
+
+
+header2
+height : 70px
+로고 width:105px;
+가운데 폰트사이즈 : 13px color:#232323 
+오른쪽 아이콘 사이즈 : 1,2,3 13px 4 14px 16px
+
+
+<logo id="logo">
+                            <a href="#"><img src="./img/logo.png" alt="logo"></a>
+                        </h1>
+                        <nav>
+
+                        </nav>
+                        <aside>
+
+                        </aside>
+///////////////////////////////////////////////////////////////////////////////////
+#section2
+
+박스 2줄 ul> i*2
+
+
+#section4
+
+똑같은 박스를 2개씩 더만들어주고
+1번째 버튼을 클릭했을떄 첫번째영역을 보여주고
+2번째 버튼을 클릭했을떄 두번째영역을 보여주고
+3번째 버튼을 클릭했을떄 세번째영역을 보여주고
+
+첫번째,두번째,세번쨰 영역은 display:absolute로 만들고
+보여줄 영역만 display:block;
+보이지 않을 영역은 display:none;
+첫번째값으로 고정하는것은 addClass로 해주면 된다.
+
+버튼을 클릭할떄 opacity 1
+
+안보이는건 .addClass opactiy 0 position:absolute;
+보이는건   .addClass opactiy 1 position:relative;
+
